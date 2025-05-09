@@ -10,5 +10,9 @@ namespace RestorantApp.Domain.Models
         public DateTime ReservationTime { get; set; }
         public int NumberOfGuests { get; set; }
         public string Status { get; set; }
+        public Customer Customer { get; set; }
+        public Restaurant Restaurant { get; set; }
+        public RestaurantTable Table { get; set; }
+
     }
 }

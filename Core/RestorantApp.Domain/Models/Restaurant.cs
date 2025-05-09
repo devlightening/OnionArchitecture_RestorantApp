@@ -13,7 +13,7 @@ namespace RestorantApp.Domain.Models
         public string Location { get; set; }
         public string? Photo { get; set; }
         public ICollection<Menu> Menus { get; set; }
-        public ICollection<Table> Tables { get; set; }
+        public ICollection<RestaurantTable> Tables { get; set; }
         public ICollection<Employee> Employees { get; set; }
     }
 }

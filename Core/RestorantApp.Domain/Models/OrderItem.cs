@@ -10,5 +10,9 @@ namespace RestorantApp.Domain.Models
         public string Note { get; set; }
         public decimal UnitPrice { get; set; }
         public decimal TotalPrice { get; set; }
+        public decimal Price { get; set; }
+
+        public Order Order { get; set; }
+        public MenuItem MenuItem { get; set; } 
     }
 }

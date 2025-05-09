@@ -12,5 +12,10 @@ namespace RestorantApp.Domain.Models
         public string Phone { get; set; }
         public Guid RestaurantId { get; set; }
         public string? Photo { get; set; }
+        public string Address { get; set; }
+        public decimal Salary { get; set; }
+        public string Position { get; set; }
+        public Restaurant Restaurant { get; set; }
+
     }
 }

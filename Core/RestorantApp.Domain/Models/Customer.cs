@@ -11,5 +11,7 @@ namespace RestorantApp.Domain.Models
         public string Address { get; set; }
         public int LoyaltyPoints { get; set; }
         public string? Photo { get; set; }
+
+        public ICollection<Order> Orders { get; set; }
     }
 }
